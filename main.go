@@ -13,7 +13,7 @@ type Girl struct {
 	match bool
 }
 
-func tobi() {
+func main() {
 	start := time.Now()
 	var wg sync.WaitGroup            // Create waitGroup to determine when all goRoutines are finished.
 	rand.Seed(time.Now().UnixNano()) // To be sure we have a random result every try.
